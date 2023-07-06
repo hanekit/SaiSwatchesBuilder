@@ -6,7 +6,7 @@ A tool for generating PaintTool SAI's swatch files (*.saiswat) from hex text or 
 
 下载 `colorboard.py`，在其同目录下创建 python 文件 `*.py`，编写所需代码即可。
 
-Here is a template:
+Here is a template in `examples/example.py` :
 
 ```python
 from colorboard import Colorboard
@@ -34,9 +34,13 @@ colorboard.save('example.saiswat')
 
 #### **> Rainbow swatches:**
 
+see `examples/rainbow.py`
+
 ![](/assets/rainbow_saiswat.png)
 
 ### From PNG file
+
+see `examples/picture.py`
 
 #### **> Bulb swatches:**
 
