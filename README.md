@@ -1,7 +1,6 @@
 # SaiSwatchesBuilder
+
 A tool for generating PaintTool SAI's swatch files (*.saiswat) from hex text or image.
-
-
 
 ## Usage
 
@@ -31,7 +30,31 @@ colorboard.save('example.saiswat')
 
 ## Examples
 
-### RainbowSwatches
+### From math function
 
-![Fig1](/assets/rainbow_saiswat.png)
+#### **> Rainbow swatches:**
+
+![](/assets/rainbow_saiswat.png)
+
+### From PNG file
+
+#### **> Bulb swatches:**
+
+**Original file (12 × 12 px) :**
+
+![](/assets/bulb.png)
+
+**Generated swatches:**
+
+![](/assets/bulb_saiswat.png)
+
+#### **> Blue swatches:**
+
+**Original file (500 × 500 px) :**
+
+![](/assets/blue.png)
+
+**Generated swatches:**
+
+![](/assets/blue_saiswat.png)
 
