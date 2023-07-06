@@ -35,6 +35,3 @@ colorboard.save('example.saiswat')
 
 ![Fig1](/assets/rainbow_saiswat.png)
 
-
-
-### PicSwatches
