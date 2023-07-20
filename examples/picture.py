@@ -55,6 +55,7 @@ if __name__ == "__main__":
     # 图片路径
     image_path = "test.png"
     # 调整图像大小
+    # 大=12 中=14 小=16
     resized_image = resize_image(image_path, 12)
     # 获取像素颜色列表
     pixel_colors = get_pixel_colors(resized_image)
