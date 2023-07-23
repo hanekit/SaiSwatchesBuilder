@@ -41,10 +41,10 @@ def get_pixel_colors(image):
                 pass
             elif a is not None:
                 r, g, b = rgba_to_rgb(r, g, b, a)
-                hex_color = '#{:02x}{:02x}{:02x}'.format(b, g, r)
+                hex_color = '#{:02x}{:02x}{:02x}'.format(r, g, b)
                 pixel_colors.append((index, hex_color))
             else:
-                hex_color = '#{:02x}{:02x}{:02x}'.format(b, g, r)
+                hex_color = '#{:02x}{:02x}{:02x}'.format(r, g, b)
                 pixel_colors.append((index, hex_color))
             index += 1
     return pixel_colors
@@ -53,7 +53,7 @@ def get_pixel_colors(image):
 # 主程序
 if __name__ == "__main__":
     # 图片路径
-    image_path = "test.png"
+    image_path = R"test.png"
     # 调整图像大小
     # 大=12 中=14 小=16
     resized_image = resize_image(image_path, 12)
