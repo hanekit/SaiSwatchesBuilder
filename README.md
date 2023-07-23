@@ -1,10 +1,16 @@
 # SaiSwatchesBuilder
 
-A tool for generating PaintTool SAI's swatch files (`*.saiswat`) from hex text or image.
+<p align="center">
+    <strong>English</strong> | <a href="./README_zh-CN.md">中文</a>
+</p>
+
+---
+
+A tool for generating PaintTool SAI's swatches files (`*.saiswat`) from hex text or image.
 
 ## Usage
 
-下载 `colorboard.py`，在其同目录下创建 python 文件 `*.py`，编写所需代码即可。
+Download the `colorboard.py`, and create a python file `*.py` in the same directory, and write your code.
 
 Here is a template in `examples/example.py` :
 
@@ -24,7 +30,7 @@ colorboard.save('example.saiswat')
 
 ```
 
-将生成的色板文件 `*.saiswat` 复制到色板文件夹¹ 即可。
+Then just copy the generated swatch file `*.saiswat` to the swatch folder¹.
 
 ¹ : `...\Documents\SYSTEMAX Software Development\SAIv2\settings\swatch\` 
 
