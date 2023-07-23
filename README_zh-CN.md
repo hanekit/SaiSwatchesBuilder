@@ -17,15 +17,15 @@
 ```python
 from colorboard import Colorboard
 
-# Create empty swatch
+# 创建空白色板对象
 colorboard = Colorboard()
-# Add color without keywords
+# 添加颜色（简易版）
 colorboard.add_color(1, '#FF0000')
-# Add color with keywords
+# 添加颜色（带参数版）
 colorboard.add_color(index=2, color='#00FF00')
-# Check colors
+# 查看色板颜色
 print(colorboard.colors)
-# Save file
+# 保存文件
 colorboard.save('example.saiswat')
 
 ```
